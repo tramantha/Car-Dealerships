@@ -1,0 +1,3 @@
+== README
+
+Car Dealerships App - in class 9/29/2016. See seeds.rb for assignment solutions!

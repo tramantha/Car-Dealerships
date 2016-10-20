@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @car.model %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @car.year %>
+</p>
+
+<p>
+  <strong>Condition:</strong>
+  <%= @car.condition %>
+</p>
+
+<p>
+  <strong>Location address:</strong>
+  <%= @car.location_address %>
+</p>
+
+<p>
+  <strong>Location city:</strong>
+  <%= @car.location_city %>
+</p>
+
+<p>
+  <strong>Location state:</strong>
+  <%= @car.location_state %>
+</p>
+
+<p>
+  <strong>Location zip:</strong>
+  <%= @car.location_zip %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @car.price %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @car.status %>
+</p>
+
+<p>
+  <strong>Sold by:</strong>
+  <%= @car.sold_by %>
+</p>
+
+<%= link_to 'Edit', edit_car_path(@car) %> |
+<%= link_to 'Back', cars_path %>
